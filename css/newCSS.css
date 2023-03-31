@@ -1,0 +1,33 @@
+.titleText {
+    font-size: 8em;
+    text-align: center;
+  }
+  
+  .subtitleText {
+    font-size: 4em;
+    text-align: center;
+  }
+
+
+  .lastYearTitle {
+    font-size: 4em;
+    text-align: center;
+    color: black;
+  }
+
+  .modalText {
+    margin-top: 10%;
+    font-size: larger;
+  }
+  
+  /* Media query for screens with a max-width of 767px (mobile devices) */
+  @media (max-width: 767px) {
+    .titleText {
+      font-size: 3em; /* Adjust font size for mobile devices */
+    }
+    
+    .subtitleText {
+      font-size: 1.5em; /* Adjust font size for mobile devices */
+    }
+  }
+  

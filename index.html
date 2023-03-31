@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
             <!-- Uncompressed Styles -->
         <link href="css/slides.css?611360" rel="stylesheet" type="text/css" id="js-slides-css">
+        <link rel="stylesheet" href="css/newCSS.css">
     
     
     <!-- Fonts and Material Icons -->
@@ -70,6 +71,7 @@
   </div>
 </nav>
 
+
 <!-- Sidebar 
 <nav class="sidebar" data-sidebar-id="1">
   <div class="close"><svg><use href="assets/uploads/lionpfp.jpeg?p=ajmbAUgi"></use></svg></div>
@@ -103,37 +105,92 @@
   <div class="content">
     <div class="container">
       <div class="wrap">
-        
         <div class="fix-3-12">
           <svg height="77" class="wide ae-1 fromCenter"><use href=""></use></svg>
         </div>
-          
+        <h2 class="titleText">Lion<span style="color:purple">Hack</span></h2>
+        <h2 class="subtitleText">April 14 - 16th, 2023 </h2>
+        <p class="modalText">Hosted By LionDAO and VioletDAO</p>
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/uploads/LionHackSlide1.jpg)"></div>
+  <div class="background" style="background-image:url(assets/uploads/background1slide.png)"></div>
 </section>
+
+
 <!-- Background Video Slide (#2) -->
-<section data-cid="slide-07-ace7bd0b" class="slide">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Responsive Example</title>
+  <style>
+    /* Add your own CSS styles here */
+  </style>
+</head>
+<body>
 
-        <div class="fix-11-12">
-          <h1 class="cropBottom ae-1 fromCenter smaller">
-            
-            <span class="button play small white popupTrigger button-7 shift-up-2" data-popup-id="7">
-              <svg><use href="assets/svg/icons.svg#play"></use></svg>
-            </span>
-           
-          </h1>
+  <div id="desktop-content">
+    <section data-cid="slide-07-ace7bd0b" class="slide">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+            <div class="fix-11-12">
+              <h1 class="cropBottom ae-1 fromCenter smaller">
+                <span class="button play small white popupTrigger button-7 shift-up-2" data-popup-id="7">
+                  <svg><use href="assets/svg/icons.svg#play"></use></svg>
+                </span>
+              </h1>
+            </div>
+          </div>
         </div>
-
       </div>
+      <div class="background" style="background-image:url(assets/uploads/22mapslide.jpeg?p=ajmbAUgi)"></div>
+    </section>
+  </div>
+
+  <div id="mobile-content" style="display:none;">
+    <!-- Add mobile-specific content here -->
+    <div id="desktop-content">
+      <section data-cid="slide-07-ace7bd0b" class="slide">
+        <div class="content">
+          <div class="container">
+            <div class="wrap">
+              <div class="fix-11-12">
+                <h3 className="lastYearTitle" style="color: #d9d9df; margin-top: 4em;">
+                  For LionHack '22, we hosted 300 Students from 16 Universities & awarded 100K+ in prizes.
+                </h3>
+                <h6>Check out our recap video below!</h6>
+                <h1 class="cropBottom ae-1 fromCenter smaller">
+                  <span class="button play small white popupTrigger button-7 shift-up-2" data-popup-id="7">
+                    <svg><use href="assets/svg/icons.svg#play"></use></svg>
+                  </span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="background" style="background-image:url(assets/uploads/LH22EndPic.jpg)"></div>
+      </section>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/uploads/22mapslide.jpeg?p=ajmbAUgi)"></div>
-</section>
+  
+
+  <script>
+    function isMobileDevice() {
+      return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    };
+
+    if (isMobileDevice()) {
+      document.getElementById('desktop-content').style.display = 'none';
+      document.getElementById('mobile-content').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
+
 
 <!-- Popup Video -->
 <div class="popup autoplay" data-popup-id="7">
@@ -658,6 +715,7 @@
   <div class="content">
     <div class="container">
       <div class="wrap">
+        <h2 class="titleText">Lion<span style="color:purple">Hack</span> 2023!</h2>
         
         <div class="fix-3-12">
           <svg height="77" class="ae-1 fromCenter"><use href=""></use></svg>
@@ -666,7 +724,7 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/uploads/LionHackLastSlide.jpg)"></div>
+  <div class="background" style="background-image:url(assets/uploads/EndSlide.jpg)"></div>
 </section>
 
 <!-- Loading Progress Bar -->
