@@ -58,8 +58,28 @@ More information here: https://slides.gitbook.io/manual/scss
 }
 
 /* Slide 47 (#6) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-18212009"] */
+.slide[data-cid="slide-47-18212009"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#7) */
 /* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-c9e69d1c"] */
 .slide[data-cid="slide-47-c9e69d1c"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#8) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-b35ee7d0"] */
+.slide[data-cid="slide-47-b35ee7d0"]{
   .flex-47 .material-icons {
     margin-bottom: 15px;
     margin-top: 15px;
