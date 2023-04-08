@@ -1,0 +1,53 @@
+/* Speakers Page (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-102-9b44eb97"] */
+.slide[data-cid=slide-102-9b44eb97] .swiper-102-prev, .slide[data-cid=slide-102-9b44eb97] .swiper-102-next {
+  background: transparent !important;
+  position: relative !important;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  margin-top: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px !important;
+  width: 24px !important;
+  transition: 0.15s;
+}
+.slide[data-cid=slide-102-9b44eb97] .swiper-102-prev:hover, .slide[data-cid=slide-102-9b44eb97] .swiper-102-next:hover {
+  opacity: 0.6;
+}
+.slide[data-cid=slide-102-9b44eb97].whiteSlide .swiper-102-prev svg, .slide[data-cid=slide-102-9b44eb97].whiteSlide .swiper-102-next svg {
+  stroke: #202020;
+  opacity: 0.6;
+}
+.slide[data-cid=slide-102-9b44eb97] .box-102:active, .slide[data-cid=slide-102-9b44eb97] .box-102:focus {
+  outline: none;
+}
+.slide[data-cid=slide-102-9b44eb97] .box-102:hover {
+  opacity: 1;
+}
+.slide[data-cid=slide-102-9b44eb97] .box-102 {
+  max-width: 340px;
+}
+.slide[data-cid=slide-102-9b44eb97] .img-102 {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px 6px 0 0;
+}
+.slide[data-cid=slide-102-9b44eb97] .box-102-shadow {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.101421), 0px 1px 4px rgba(0, 0, 0, 0.101421);
+}
+.slide[data-cid=slide-102-9b44eb97] .box-102-shadow.done {
+  transition: 0.15s !important;
+}
+.slide[data-cid=slide-102-9b44eb97] .box-102-shadow:hover {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+}
+.slide[data-cid=slide-102-9b44eb97] .thumbnail-102 {
+  border-radius: 0 0 6px 6px;
+  background: #fff;
+}
+.slide[data-cid=slide-102-9b44eb97] .social-102:hover {
+  opacity: 0.6 !important;
+}
