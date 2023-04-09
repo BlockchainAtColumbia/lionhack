@@ -29,5 +29,51 @@
     .subtitleText {
       font-size: 1.5em; /* Adjust font size for mobile devices */
     }
+  
+  }  
+
+
+/* For mobile screens */
+@media only screen and (max-width: 767px) {
+  nav.panel.top .sections {
+    display: block;
+    align-items: center;
   }
   
+  nav.panel.top .center {
+    text-align: center;
+  }
+  
+  nav.panel.top .right {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  nav.panel.top .right .button {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav.panel.top .sections:not(.compact) .left {
+    margin-bottom: 20px;
+  }
+  
+  nav.panel.top .sections.compact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav.panel.top .sections.compact .left {
+    display: none;
+  }
+  
+  nav.panel.top .sections.compact .right {
+    display: none;
+  }
+  
+  nav.panel.top .menu li {
+    display: block;
+    margin: 10px 0;
+  }
+}
